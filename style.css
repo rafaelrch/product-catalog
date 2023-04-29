@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Poppins:wght@100;500&family=Righteous&family=Roboto:wght@700;900&family=Sarala:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background: #e5e6d9;
+}
+
+.header{
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    background: #e5e6d9;
+    padding-left: 30px;
+}
+
+.jordan{
+    width: 30px;
+    position: relative;
+    top: 4px;
+}
+
+.just{
+    height: 70px;
+    position: relative;
+    top: 4px;
+}
+
+.nike{
+    width: 50px;
+}
+
+.nav{
+    width: 100vw;
+    height: 80px;
+    background: #f9f9f9;
+    display: flex;
+    flex-direction: row;
+    gap: 40%;
+    align-items: center;
+    padding-left: 30px;
+    box-shadow: 0 20px 20px 1px rgba(0, 0, 0, 0.1);
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+    
+}
+
+.menu a{
+    font-family: 'Didact Gothic', sans-serif;
+    color: black;
+    font-weight: 100;
+}
+
+.menu a:hover{
+    color:rgb(122, 121, 121);
+    transition: 0.3s;
+}
+
+.conteiner{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    padding-top: 60px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card{
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60rem;
+    height: 30rem;
+    box-shadow: 0 20px 20px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    background: #f9f9f9;
+}
+
+.card:hover{
+    transform: scale(102%);
+    transition: 0.5s;
+    background: rgba(131, 104, 104, 0.611);
+}
+
+
+.card-primario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 20px;
+}
+
+.cactus{
+    position: relative;
+    right: 100px;
+    width: 600px;
+    transform: scale(-1,1)  rotate(15deg);
+}
+
+.shadow {
+    filter: blur(15px);
+    width: 600px;
+    height: 20px;
+    position: relative;
+    top: 60px;
+    right: 70px;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 50%;
+    
+}
+
+.card-secundario{
+    display: flex;
+    flex-direction: column;
+}
+
+.tittle{
+    position: relative;
+    bottom: 50px;
+}
+
+.details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.details2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.card .tittle{
+    font-family: Roboto,sans-serif,Arial;
+    font-size: 20pt;
+    color: #555;
+}
+
+.card h2{
+    font-family: Roboto,sans-serif,Arial;
+    font-size: 14pt;
+    color: #888;
+}
+
+
+p,h4{
+    font-family: Roboto,sans-serif,Arial;
+    font-size: 16pt;
+    color: rgb(129, 129, 129);
+}
+
+.description{
+    position: relative;
+    top: 20px;
+    color: rgb(129, 129, 129);
+}
+
+.snkrs{
+    margin: 50px;
+    width: 100px;
+}
